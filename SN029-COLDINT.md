@@ -1,10 +1,20 @@
 # coldint — Subnet 29 (SN29)
 
+> ## ⚠️ VERIFY BEFORE USING — chain state contradicts this file (checked 2026-09-05, block 8,998,579)
+>
+> Netuid 29's chain name is now **`hoτfloaτ`**, not `coldint`. This file's headline claim —
+> *"DORMANT, 100 % of weight burns"* — no longer matches the chain: **one UID (19, which is
+> not the owner's hotkey) is taking 100 % of the miner pool**, and owner capture is the bare
+> 18 % protocol cut with nothing added. Registered at block 3,379,782, 256 UIDs, α ≈ $0.71.
+>
+> **The mechanism below has not been re-verified against the current operator.** Treat this
+> document as historical until re-analysed.
+
 **Status: DORMANT. 100% of weight burns. Do not mine here.** Repos: `/home/vps-project/Bittensor/sn29` (`coldint/sn29`, dynamic config only) + `/home/vps-project/Bittensor/coldint_validator` (`coldint/coldint_validator`, the actual miner/validator code) · netuid **29** (finney).
 
 > ⚠️ **This is the most important finding in this write-up, so it leads the document.** Both public sources describe SN29 as active — `subnetalpha.ai` claims a "July 2025... relaunch... refocused mission on AI Agent Safety & Security," and `coldint.io/leaderboard` still renders a "Participants" table. **Neither matches the live on-chain configuration.** The `coldint/sn29` repo (the subnet's own dynamic-config source, read directly by validators) has, as of two commits dated **2025-07-11**, `competitions.json` set to a literal empty object `{}` (zero active competitions) and `hall_of_fame.json` containing exactly one entry: a single hotkey with `"desc": "Burn"`, i.e. **100% of subnet weight is being routed to a burn address**, not to any model or contribution. A follow-up commit in January 2026 only updated *which* hotkey receives the burn — the subnet has not resumed any competition since mid-2025. If you were considering mining here expecting an active pretraining/agent-safety competition, there isn't one to compete in right now.
 >
-> **Also flagged separately: the `hotfloat` repo the user pointed to is NOT this subnet.** It lives under the same `coldint` GitHub org but its own README identifies it as **"Cacheon," Bittensor Subnet 14** (`github.com/latent-to/cacheon`, `cacheon.ai`) — a completely different, actively-developed subnet apparently built by the same/an affiliated team. See [`SN14_CACHEON.md`](SN14_CACHEON.md) for that analysis — it's very likely what you actually want if you're looking at active code in that directory.
+> **Also flagged separately: the `hotfloat` repo the user pointed to is NOT this subnet.** It lives under the same `coldint` GitHub org but its own README identifies it as **"Cacheon," Bittensor Subnet 14** (`github.com/latent-to/cacheon`, `cacheon.ai`) — a completely different, actively-developed subnet apparently built by the same/an affiliated team. See [`SN14_CACHEON.md`](SN014-CACHEON.md) for that analysis — it's very likely what you actually want if you're looking at active code in that directory.
 
 ## What SN29 originally was (historical — not currently running)
 Per `coldint_validator/README.md`: "Bittensor COLlaborative DIstributed INcentivized Training" — a fork of Macrocosmos' original pretraining subnet (SN9), created because that design was "somewhat static and lacked the incentive to publish small improvements." The initial (and, per the frozen `competitions.json`, final) competition rewarded miners for improving a model's loss on the [FineWeb-Edu-2 dataset](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu-score-2) — classic collaborative LLM pretraining, in the same lineage as SN9/Zeus-adjacent model-competition subnets. A secondary "Hall of Fame" mechanism let validators route weight to hotkeys that contributed code, bug-fixes, or key research insights — the mechanism now repurposed to hold the single burn entry.

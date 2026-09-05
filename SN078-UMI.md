@@ -24,7 +24,7 @@
 | **UIDs** | 256 registered · **1 earning (UID 98, 100 %)** · 7 permits · 5 with dividends |
 | **On-chain commitments** | **1** — and it is a legacy Vocence-format model claim |
 | **Registration cost** | **0.0005 TAO** (~$0.13) |
-| **Prior analysis** | [`SN78-VOCENCE-ANALYSIS.md`](SN78-VOCENCE-ANALYSIS.md) (2026-08-19) |
+| **Prior analysis** | [`SN78-VOCENCE-ANALYSIS.md`](SN078-VOCENCE-HISTORICAL.md) (2026-08-19) |
 
 ---
 

@@ -1,5 +1,14 @@
 # Leoma — Subnet 36 (SN36)
 
+> ## ⚠️ THIS SUBNET NO LONGER EXISTS AT THIS NETUID (checked 2026-09-05, block 8,998,579)
+>
+> Netuid 36 was **re-registered at block 8,884,359 (~16 days ago)** and its chain name is now
+> **`automata`**. It has **3 UIDs**, `alpha_out = 0`, and the owner's hotkey at UID 0 holds
+> **100 % of incentive**. Leoma — the AI video-generation subnet described below, with the
+> `Wan2.2-I2V-A14B` base and king-of-the-hill duels — **is gone from netuid 36**.
+>
+> Everything below is retained as a record of the previous occupant. Do not act on it.
+
 **AI video generation, king-of-the-hill, deterministic reference-based duels.** Repo: `/home/vps-project/Bittensor/leoma` (`RendixNetwork/leoma`, Python, CLI `leoma`) · netuid **36** (finney).
 
 > **Status check first, since you shared live metagraph data**: your screenshot shows netuid 36 marked **"At Risk"** by taostats, market cap ~$298K, only **1 active miner**, and UID 243 holding effectively 100% of incentive/dividends (1.0/1.0) with all other listed UIDs at zero. That's consistent with what the code predicts for an extremely young king-of-the-hill subnet: whoever currently holds the crown (or is the sole registered challenger) captures nearly all miner-side emission, because there's no one else to split it with yet. This is a legitimately new, resource-heavy, and currently very thin subnet — read the hardware section before assuming this is approachable.

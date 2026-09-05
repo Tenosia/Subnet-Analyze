@@ -1,6 +1,6 @@
 # SN118 Ditto — Engineering Deep-Dive
 
-Companion to [SN118_DITTO.md](SN118_DITTO.md). Code-grounded from the four core repos cloned into `Bittensor/`: `ditto-subnet` (chain/incentive), `dittobench-api` (Go scorer), `dittobench-datagen` (Go dataset+grader), `ditto-harness` (Rust memory engine), plus `dittobench-starter-kit` (the miner you edit).
+Companion to [SN118_DITTO.md](SN118-DITTO.md). Code-grounded from the four core repos cloned into `Bittensor/`: `ditto-subnet` (chain/incentive), `dittobench-api` (Go scorer), `dittobench-datagen` (Go dataset+grader), `ditto-harness` (Rust memory engine), plus `dittobench-starter-kit` (the miner you edit).
 
 > **The one-sentence model:** everyone runs the **same frozen LLM** (`openai/gpt-oss-20b` for the current v7/v8 contract) on a **fresh, per-agent, unpredictable dataset**, and you win by building the **best memory-retrieval + tool-calling harness around that model** — scored by a **deterministic, judge-free, publicly reproducible grader**. Latency and token cost do **not** move your score.
 

@@ -1,21 +1,58 @@
 # Bittensor Subnet Analysis
 
-Deep-dive summaries of eight Bittensor subnets, one file each. *Snapshot as of 2026-07-31 — all figures (prices, champions, active miners, weights) change over time; re-verify before committing capital.*
+Deep-dive summaries of **35 Bittensor subnets**, one file each.
 
-| # | Subnet | File | Domain |
-|---|---|---|---|
-| 53 | **Engy** ⚡ | [subnet-53-engy.md](subnet-53-engy.md) | Verified LLM inference (GPU serving) |
-| 105 | **Beam** 📡 | [beam-sn105.md](beam-sn105.md) | Decentralized bandwidth / CDN (+ deployment record) |
-| 107 | **Minos** 🧬 | [subnet-107-minos.md](subnet-107-minos.md) | Genomic variant calling |
-| 114 | **SOMA** 🧩 | [subnet-114-soma.md](subnet-114-soma.md) | Token-efficient SWE coding agents |
-| 118 | **Ditto** 🧠 | [subnet-118-ditto.md](subnet-118-ditto.md) | Agent-memory harness |
-| 123 | **MANTIS** 📈 | [subnet-123-mantis.md](subnet-123-mantis.md) | Financial signal prediction |
-| 124 | **Swarm** 🚁 | [subnet-124-swarm.md](subnet-124-swarm.md) | Autonomous drone-pilot AI (RL) |
-| 127 | **Astrid** 📊 | [subnet-127-astrid.md](subnet-127-astrid.md) | AI trading competitions (live agents) |
+📊 **[compare-table.md](compare-table.md) — the full side-by-side comparison**, with live
+economics for all 35 read at one block height. Start there.
+
+*Economics below are live as of 2026-09-05 (block 8,998,579); the prose inside each
+file is dated at its own top. All figures move — re-verify before committing capital.*
+
+| # | Subnet | File | Domain | Earning UIDs | α (USD) |
+|---|---|---|---|---|---|
+| 14 | **Cacheon** | [`SN014-CACHEON.md`](SN014-CACHEON.md) | Inference-server speed competition | 6 | $2.49 |
+| 18 | **Zeus** | [`SN018-ZEUS.md`](SN018-ZEUS.md) | Weather / climate forecasting | 35 | $1.11 |
+| 26 | **Perturb** | [`SN026-PERTURB.md`](SN026-PERTURB.md) | Adversarial red-teaming of an image classifier | 10 | $0.95 |
+| 28 | **SayGM** | [`SN028-GM.md`](SN028-GM.md) | Confidential LLM-API marketplace | 45 | $5.81 |
+| 29 | **hoτfloaτ** | [`SN029-COLDINT.md`](SN029-COLDINT.md) | ⚠️ file stale — was `coldint` | 1 | $0.71 |
+| 34 | **BitMind / GAS** | [`SN034-BITMIND.md`](SN034-BITMIND.md) | Deepfake detectors vs generators | 140 | $3.11 |
+| 35 | **Cartha (0xMarkets)** | [`SN035-CARTHA.md`](SN035-CARTHA.md) | Liquidity mining — not AI | 2 | $0.62 |
+| 36 | **automata** | [`SN036-LEOMA.md`](SN036-LEOMA.md) | ⚠️ file stale — was `Leoma` | 1 | $1.35 |
+| 38 | **ChronoLLM** | [`SN038-CHRONOLLM.md`](SN038-CHRONOLLM.md) | Chronologically-consistent LLM training | 1 | $1.98 |
+| 43 | **Graphite** | [`SN043-GRAPHITE.md`](SN043-GRAPHITE.md) | Graph/routing optimisation + trading | 13 | $1.20 |
+| 47 | **Feval** | [`SN047-FEVAL.md`](SN047-FEVAL.md) | Verifiable LoRA evaluation | 1 | $0.84 |
+| 53 | **Engy** | [`SN053-ENGY.md`](SN053-ENGY.md) | Verified LLM inference (GPU serving) | 68 | $7.31 |
+| 54 | **MIID (Yanez)** | [`SN054-MIID.md`](SN054-MIID.md) | Identity-preserving face variations for KYC | 97 | $1.12 |
+| 58 | **Greevils** | [`SN058-GREEVILS.md`](SN058-GREEVILS.md) | TEE algo-trading on Hyperliquid | 1 | $2.42 |
+| 60 | **Bitsec** | [`SN060-BITSEC.md`](SN060-BITSEC.md) | AI agents finding smart-contract vulns | 2 | $1.24 |
+| 61 | **RedTeam** | [`SN061-REDTEAM.md`](SN061-REDTEAM.md) | Bots vs bot-detection | 45 | $3.27 |
+| 71 | **Leadpoet** | [`SN071-LEADPOET.md`](SN071-LEADPOET.md) | B2B sales-lead generation | 52 | $1.19 |
+| 76 | **Phylax** | [`SN076-PHYLAX.md`](SN076-PHYLAX.md) | AI supply-chain security attestation | 21 | $0.39 |
+| 78 | **UMI** | [`SN078-UMI.md`](SN078-UMI.md)<br>↳ [`SN078-VOCENCE-HISTORICAL.md`](SN078-VOCENCE-HISTORICAL.md) — *previous protocol at this netuid* | ASL→English translation (pre-activation) | 1 | $1.41 |
+| 79 | **MVTRX** | [`SN079-MVTRX.md`](SN079-MVTRX.md) | Agent-based market simulation | 217 | $1.59 |
+| 80 | **OpenRoboto** | [`SN080-OPENROBOTO.md`](SN080-OPENROBOTO.md) | Fine-tune π0.5 VLA robotics | 5 | $3.91 |
+| 82 | **Compelle** | [`SN082-COMPELLE.md`](SN082-COMPELLE.md)<br>↳ [`SN082-COMPELLE-TOOLS.md`](SN082-COMPELLE-TOOLS.md) — *mining tooling guide* | Adversarial LLM debate | 1 | $0.82 |
+| 90 | **KubeTEE** | [`SN090-KUBETEE.md`](SN090-KUBETEE.md) | DePIN confidential compute | 2 | $7.42 |
+| 92 | **MicroTensor** | [`SN092-MICROTENSOR.md`](SN092-MICROTENSOR.md) | Certified inference systems | 9 | $0.86 |
+| 101 | **Tag101** | [`SN101-TAG101.md`](SN101-TAG101.md) | Semantic tagging of X posts | 245 | $1.13 |
+| 103 | **Capcomp** | [`SN103-CAPCOMP.md`](SN103-CAPCOMP.md) | LoRA composition | 4 | $3.34 |
+| 105 | **Beam** | [`SN105-BEAM.md`](SN105-BEAM.md)<br>↳ [`SN105-BEAM-SUMMARY.md`](SN105-BEAM-SUMMARY.md) — *short summary* | Decentralised bandwidth / CDN | 202 | $1.81 |
+| 107 | **Minos** | [`SN107-MINOS.md`](SN107-MINOS.md) | Genomic variant calling | 21 | $13.88 |
+| 114 | **SOMA** | [`SN114-SOMA.md`](SN114-SOMA.md) | Token-efficient SWE coding agents | 18 | $3.36 |
+| 118 | **Ditto** | [`SN118-DITTO.md`](SN118-DITTO.md)<br>↳ [`SN118-DITTO-DEEPDIVE.md`](SN118-DITTO-DEEPDIVE.md) — *engineering deep-dive*<br>↳ [`SN118-DITTO-SUMMARY.md`](SN118-DITTO-SUMMARY.md) — *short summary* | Agent-memory harness | 5 | $2.34 |
+| 120 | **Affine** | [`SN120-AFFINE.md`](SN120-AFFINE.md) | Incentivised RL / reasoning competition | 5 | $13.65 |
+| 121 | **Sundae Bar** | [`SN121-SUNDAEBAR.md`](SN121-SUNDAEBAR.md) | AI skill evaluation, majority-burn | 2 | $1.18 |
+| 123 | **MANTIS** | [`SN123-MANTIS.md`](SN123-MANTIS.md) | Financial signal prediction | 249 | $0.67 |
+| 124 | **Swarm** | [`SN124-SWARM.md`](SN124-SWARM.md) | Autonomous drone-pilot AI (RL) | 25 | $2.95 |
+| 127 | **Astrid** | [`SN127-ASTRID.md`](SN127-ASTRID.md) | AI trading competitions (live agents) | 1 | $0.74 |
+
 
 ---
 
-## At-a-glance comparison
+## At-a-glance (original eight)
+
+> Superseded by [compare-table.md](compare-table.md), which covers all 35. Kept for its
+> qualitative detail on these eight.
 
 | Dimension | Beam (105) | Minos (107) | SOMA (114) | Ditto (118) | MANTIS (123) |
 |---|---|---|---|---|---|
@@ -34,14 +71,14 @@ Deep-dive summaries of eight Bittensor subnets, one file each. *Snapshot as of 2
 
 ## How to choose
 
-- **If you're an infra/ops operator (not ML):** **Beam** — a different game entirely (decentralized CDN). No model, no submission; you run an orchestrator + workers and compete on **throughput + reliability + 24/7 uptime**. Needs a publicly-reachable port and a bandwidth budget. Already deployed here (UID 223) — see [beam-sn105.md](beam-sn105.md).
+- **If you're an infra/ops operator (not ML):** **Beam** — a different game entirely (decentralized CDN). No model, no submission; you run an orchestrator + workers and compete on **throughput + reliability + 24/7 uptime**. Needs a publicly-reachable port and a bandwidth budget. Already deployed here (UID 223) — see [beam-sn105.md](SN105-BEAM.md).
 - **Lowest barrier to *try*:** MANTIS or Minos (no per-inference cost, no submission fee).
-- **If you're a quant / ML-finance person:** **MANTIS** — highest skill ceiling, proportional reward (don't need #1), copy-proof. Or **Astrid (127)** if you'd rather run a *live* trading agent than submit signals — but it's **winner-take-few** (top-3 by PnL per competition), so you must out-trade rivals. No GPU; needs the Arena API + maybe an LLM. See [subnet-127-astrid.md](subnet-127-astrid.md).
+- **If you're a quant / ML-finance person:** **MANTIS** — highest skill ceiling, proportional reward (don't need #1), copy-proof. Or **Astrid (127)** if you'd rather run a *live* trading agent than submit signals — but it's **winner-take-few** (top-3 by PnL per competition), so you must out-trade rivals. No GPU; needs the Arena API + maybe an LLM. See [subnet-127-astrid.md](SN127-ASTRID.md).
 - **If you're a Rust / retrieval engineer:** **Ditto** — pure skill race, but the crown is locked at ~0.97; realistically aim for tail ranks (~0.93+) and prioritize originality + a clean Docker build.
 - **If you're strong at agent/context engineering and can fund inference:** **SOMA** — but it's a moving target (re-qualify every 2 weeks).
 - **If you have bioinformatics depth:** **Minos** — open field today; position for Phase 2 (custom algorithms).
-- **If you're a GPU / infra operator with real hardware:** **Engy** — run verifiable LLM inference for real paying buyers; earnings ∝ paid tokens you serve, gated by a 99%+ acceptance SLA + a TOPLOC honesty proof. Needs a multi-GPU rig (ref: 4× RTX 4090); validating is CPU-only. See [subnet-53-engy.md](subnet-53-engy.md).
-- **If you're an RL / robotics / control engineer:** **Swarm** — train a drone-pilot policy on depth+state → flight commands. King-of-the-Hill pays the **last 5 champions per mission** (breakthroughs keep paying), no GPU or inference cost to *run*, but **one shot per hotkey** — benchmark the full 1,100 seeds locally first. See [subnet-124-swarm.md](subnet-124-swarm.md).
+- **If you're a GPU / infra operator with real hardware:** **Engy** — run verifiable LLM inference for real paying buyers; earnings ∝ paid tokens you serve, gated by a 99%+ acceptance SLA + a TOPLOC honesty proof. Needs a multi-GPU rig (ref: 4× RTX 4090); validating is CPU-only. See [subnet-53-engy.md](SN053-ENGY.md).
+- **If you're an RL / robotics / control engineer:** **Swarm** — train a drone-pilot policy on depth+state → flight commands. King-of-the-Hill pays the **last 5 champions per mission** (breakthroughs keep paying), no GPU or inference cost to *run*, but **one shot per hotkey** — benchmark the full 1,100 seeds locally first. See [subnet-124-swarm.md](SN124-SWARM.md).
 
 ## Universal cautions
 1. **Verify economics live** — burn %, alpha price, champion scores, and active-miner counts all move.

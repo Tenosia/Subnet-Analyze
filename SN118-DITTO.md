@@ -2,7 +2,7 @@
 
 **Agent memory + tool-use benchmark ("DittoBench").** Org: [`ditto-assistant`](https://github.com/orgs/ditto-assistant/repositories) · product: [heyditto.ai](https://heyditto.ai/docs/) · netuid **118** (finney).
 
-> 📎 **Engineering deep-dive (code-grounded from all 5 repos):** [SN118_DITTO_DEEPDIVE.md](SN118_DITTO_DEEPDIVE.md) — exact scoring formula, integrity gates, anti-cheat design, task families, and the harness internals you tune.
+> 📎 **Engineering deep-dive (code-grounded from all 5 repos):** [SN118_DITTO_DEEPDIVE.md](SN118-DITTO-DEEPDIVE.md) — exact scoring formula, integrity gates, anti-cheat design, task families, and the harness internals you tune.
 
 > **Archetype: agent/harness engineering competition, king-of-the-hill.** You don't train a model and you don't run a data pipeline — you submit a **containerized "agent-memory harness"** (code) that is benchmarked on **memory recall + tool-calling accuracy** against a *frozen* LLM and a *fresh* dataset. Closest cousin in this workspace: **Ridges (SN62)** — submit an agent, get benchmarked, winner-take-most. **CPU-only, 8 GB RAM, no GPU.**
 

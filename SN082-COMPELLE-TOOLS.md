@@ -9,7 +9,7 @@ Two tools built for mining **Compelle, Bittensor netuid 82**. They solve the two
 
 > **Why two?** SN82 gives you **one commitment per UID, permanently** — a new commitment hash wipes your Elo back to 1000 *and* resets your king-of-the-hill streak ([`validator.py:568`](compelle-validator/compelle/validator.py#L568)). So all experimentation must happen **before** you register. `compelle-lab` is where you experiment; `compelle-watch` is how you know when to move.
 
-Companion analysis: [SN82-COMPELLE-ANALYSIS.md](SN82-COMPELLE-ANALYSIS.md).
+Companion analysis: [SN82-COMPELLE-ANALYSIS.md](SN082-COMPELLE.md).
 
 ---
 
@@ -406,4 +406,4 @@ systemctl daemon-reload && systemctl restart compelle-watch
 
 ---
 
-*Built 2026-08-19 against compelle-validator v0.5.0. Subnet analysis: [SN82-COMPELLE-ANALYSIS.md](SN82-COMPELLE-ANALYSIS.md).*
+*Built 2026-08-19 against compelle-validator v0.5.0. Subnet analysis: [SN82-COMPELLE-ANALYSIS.md](SN082-COMPELLE.md).*
