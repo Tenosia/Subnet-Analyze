@@ -1,0 +1,1420 @@
+{
+ "github": {
+  "latent-to/cacheon": {
+   "status": "ok",
+   "head": "892b41ba4799e5e234c945446e9ddca997622bff",
+   "n_refs": 139,
+   "n_tags": 11,
+   "tags_digest": "1cbaa0c83f827f55",
+   "netuid": 14,
+   "kind": "p"
+  },
+  "Orpheus-AI/Zeus": {
+   "status": "ok",
+   "head": "024eb19eeca724aaad135b4492091abf658694ce",
+   "n_refs": 126,
+   "n_tags": 33,
+   "tags_digest": "ffd3ea153ce03036",
+   "netuid": 18,
+   "kind": "p"
+  },
+  "urfoundation/sn": {
+   "status": "ok",
+   "head": "90479120fe2a82ac4be204e95f82171361117e7d",
+   "n_refs": 296,
+   "n_tags": 89,
+   "tags_digest": "702f94fff14854b0",
+   "netuid": 25,
+   "kind": "p"
+  },
+  "urnetwork/connect": {
+   "status": "ok",
+   "head": "733f71bd08d5ffa8b0df8856b641dddb5be69f3e",
+   "n_refs": 2704,
+   "n_tags": 818,
+   "tags_digest": "f59eb3067f71f625",
+   "netuid": 25,
+   "kind": "p"
+  },
+  "urnetwork/server": {
+   "status": "ok",
+   "head": "f8515b5cf36280d564437b24c40a68e3af8ba6e2",
+   "n_refs": 2633,
+   "n_tags": 677,
+   "tags_digest": "e7b84e6ba2306261",
+   "netuid": 25,
+   "kind": "p"
+  },
+  "urnetwork/sdk": {
+   "status": "ok",
+   "head": "955a4e29d5b7f4161b4213b7c22b9fa248ff565e",
+   "n_refs": 2406,
+   "n_tags": 720,
+   "tags_digest": "dcc4b7b2611a3e0b",
+   "netuid": 25,
+   "kind": "p"
+  },
+  "0xsigurd/Perturb": {
+   "status": "ok",
+   "head": "2854322561380bce51f5ff1ef30002ede02aa59c",
+   "n_refs": 82,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 26,
+   "kind": "p"
+  },
+  "taostat/gm-validator": {
+   "status": "ok",
+   "head": "6993bb22dbe00f5e50c9e97d490f87c74cb67d8a",
+   "n_refs": 126,
+   "n_tags": 11,
+   "tags_digest": "b244016b6bd2b6bd",
+   "netuid": 28,
+   "kind": "p"
+  },
+  "taostat/gm-miner": {
+   "status": "ok",
+   "head": "0fa4f94d64957c054072e00155f4a316a350a436",
+   "n_refs": 411,
+   "n_tags": 55,
+   "tags_digest": "fb41c7f20905aba8",
+   "netuid": 28,
+   "kind": "p"
+  },
+  "coldint/sn29": {
+   "status": "ok",
+   "head": "fcb8969469eaef42b34d4ddfc615f9f08c361cb5",
+   "n_refs": 2,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 29,
+   "kind": "p"
+  },
+  "BitMind-AI/bitmind-subnet": {
+   "status": "ok",
+   "head": "38413105a08e10c6fe0a25465863746cfc553afd",
+   "n_refs": 563,
+   "n_tags": 75,
+   "tags_digest": "c7dc94044de928f1",
+   "netuid": 34,
+   "kind": "p"
+  },
+  "General-Tao-Ventures/cartha-validator": {
+   "status": "ok",
+   "head": "addb50f2b77c89f119f1d1c01630b9622887b474",
+   "n_refs": 67,
+   "n_tags": 17,
+   "tags_digest": "96f5ba746fde0fbe",
+   "netuid": 35,
+   "kind": "p"
+  },
+  "General-Tao-Ventures/cartha-cli": {
+   "status": "ok",
+   "head": "cb5037f84c23cd370b1b5394d9efa5b39670ae27",
+   "n_refs": 72,
+   "n_tags": 7,
+   "tags_digest": "69894590779c101c",
+   "netuid": 35,
+   "kind": "p"
+  },
+  "EpagoFoundation/epago": {
+   "status": "ok",
+   "head": "7ddfef02a20b684887419add0243cbd0c9b50f8e",
+   "n_refs": 9,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 36,
+   "kind": "p"
+  },
+  "RendixNetwork/leoma": {
+   "status": "ok",
+   "head": "1317e93a2e2b1dcb17f009c7bfacc5df7d6d2b78",
+   "n_refs": 36,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 36,
+   "kind": "r"
+  },
+  "chronollm/sn38": {
+   "status": "ok",
+   "head": "5b49b5d2b2c9e2e42051549e1716521b85171f59",
+   "n_refs": 47,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 38,
+   "kind": "p"
+  },
+  "RalphLabsAI/ralph-v2": {
+   "status": "ok",
+   "head": "4c15c36719d0860b5e33e5689f8425fcdf00b8b9",
+   "n_refs": 23,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 40,
+   "kind": "p"
+  },
+  "RalphLabsAI/ralph": {
+   "status": "ok",
+   "head": "d9cc3f0fde5ee25c1d0b162703b47b3ca45ec0bc",
+   "n_refs": 152,
+   "n_tags": 3,
+   "tags_digest": "0724f71906298bbf",
+   "netuid": 40,
+   "kind": "p"
+  },
+  "RalphLabsAI/recipe": {
+   "status": "ok",
+   "head": "ec8adf2554db12de11b52ca97470e1dc57c2e853",
+   "n_refs": 1695,
+   "n_tags": 36,
+   "tags_digest": "95ef1dc74450ffbc",
+   "netuid": 40,
+   "kind": "p"
+  },
+  "GraphiteAI/Graphite-Subnet": {
+   "status": "ok",
+   "head": "503b5514201f6ab3cc73977b0e760710730082d3",
+   "n_refs": 54,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 43,
+   "kind": "p"
+  },
+  "center196/feval": {
+   "status": "ok",
+   "head": "52aa4d420cd566e174a70aba13275cdaf6c29aaf",
+   "n_refs": 3,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 47,
+   "kind": "p"
+  },
+  "hanlinai/engy": {
+   "status": "ok",
+   "head": "27ef2b7eec837b1447e997a46e408f0cbb966861",
+   "n_refs": 75,
+   "n_tags": 11,
+   "tags_digest": "99055c8260ff43be",
+   "netuid": 53,
+   "kind": "p"
+  },
+  "yanez-compliance/MIID-subnet": {
+   "status": "ok",
+   "head": "6613d233f1570443cab088eaa49d6409b734308e",
+   "n_refs": 206,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 54,
+   "kind": "p"
+  },
+  "greevils-ai/greevils-validator": {
+   "status": "ok",
+   "head": "2e08a01c4199c0fd083e9e81bd9943cb9788f3ab",
+   "n_refs": 2,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 58,
+   "kind": "p"
+  },
+  "greevils-ai/greevils-cli": {
+   "status": "ok",
+   "head": "dd4decc28a3dcfc7883717625408dbc40229b9b5",
+   "n_refs": 2,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 58,
+   "kind": "p"
+  },
+  "greevils-ai/greevils-docs": {
+   "status": "ok",
+   "head": "392d9ae0f0730b2964576092728f3a8354396b43",
+   "n_refs": 2,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 58,
+   "kind": "p"
+  },
+  "greevils-ai/greevils-public-harness": {
+   "status": "ok",
+   "head": "db964eb684cb766342e1cc1a0084699b03a5bca8",
+   "n_refs": 5,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 58,
+   "kind": "p"
+  },
+  "Bitsec-AI/sandbox": {
+   "status": "ok",
+   "head": "f615a38fa4707320dc566450682eef572fcae556",
+   "n_refs": 74,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 60,
+   "kind": "p"
+  },
+  "RedTeamSubnet/RedTeam": {
+   "status": "ok",
+   "head": "70999ffc4a109ce25e9997d6af314b325b6dfe73",
+   "n_refs": 248,
+   "n_tags": 82,
+   "tags_digest": "07d915c0064c720c",
+   "netuid": 61,
+   "kind": "p"
+  },
+  "RedTeamSubnet/miner": {
+   "status": "ok",
+   "head": "98344335e65426af7a0f96b922ac75b30d613130",
+   "n_refs": 69,
+   "n_tags": 30,
+   "tags_digest": "0a2390dd470a516f",
+   "netuid": 61,
+   "kind": "p"
+  },
+  "leadpoet/leadpoet": {
+   "status": "ok",
+   "head": "2299cbefb16ef1ed22b7e0d3c13171b0b6dcdd13",
+   "n_refs": 418,
+   "n_tags": 2,
+   "tags_digest": "02bc9c7b19cec7bc",
+   "netuid": 71,
+   "kind": "p"
+  },
+  "praxi-labs/phylax-subnet": {
+   "status": "ok",
+   "head": "eb23591b90e7ba42cda2cfab4591b08c4f50cfe4",
+   "n_refs": 11,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 76,
+   "kind": "p"
+  },
+  "praxi-labs/phylax-corpus-data": {
+   "status": "ok",
+   "head": "949f29bffb9bf6f25d09b5d3b78ff3a5c6b7106f",
+   "n_refs": 25,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 76,
+   "kind": "p"
+  },
+  "Umi-BitSign/umi": {
+   "status": "ok",
+   "head": "714dd4d06ec2d5a833b2a9d1b1cc869088ead2dd",
+   "n_refs": 3,
+   "n_tags": 1,
+   "tags_digest": "e9ba99ed09335a7c",
+   "netuid": 78,
+   "kind": "p"
+  },
+  "vocence-78/vocence": {
+   "status": "ok",
+   "head": "847e08987561ab1242e98845012a7cce856e1bbe",
+   "n_refs": 49,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 78,
+   "kind": "r"
+  },
+  "taos-im/sn-79": {
+   "status": "ok",
+   "head": "f84fea099ecb51953a2e144940518cf363984c04",
+   "n_refs": 9,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 79,
+   "kind": "p"
+  },
+  "openroboto-ai/openroboto-subnet": {
+   "status": "ok",
+   "head": "726e42aea3a8901dc2f431ab8d17c7d5c46594a4",
+   "n_refs": 2,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 80,
+   "kind": "p"
+  },
+  "openroboto-ai/openroboto-evaluation": {
+   "status": "ok",
+   "head": "fd1a52a98546ff0fa52da4955e38f21deac4b2eb",
+   "n_refs": 2,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 80,
+   "kind": "p"
+  },
+  "compelle/compelle-validator": {
+   "status": "ok",
+   "head": "09af5f4c06f7af8d30858c8eefa1e83a1d76f4dd",
+   "n_refs": 4,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 82,
+   "kind": "p"
+  },
+  "KubeTEE-AI/kubetee-subnet": {
+   "status": "ok",
+   "head": "155cb41f0f00a460ba6c40c982a16541d1d0b6bd",
+   "n_refs": 32,
+   "n_tags": 10,
+   "tags_digest": "7e93af841c85f617",
+   "netuid": 90,
+   "kind": "p"
+  },
+  "microtensor-io/microtensor-subnet": {
+   "status": "ok",
+   "head": "7693164e3710feb7454db3e9a16e12267e3e3187",
+   "n_refs": 59,
+   "n_tags": 18,
+   "tags_digest": "80ea8c0b54e938c9",
+   "netuid": 92,
+   "kind": "p"
+  },
+  "bitcast-network/bitcast": {
+   "status": "ok",
+   "head": "1a3210895c3fe44daec25f544a2c7b27de3c5dfe",
+   "n_refs": 233,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 93,
+   "kind": "p"
+  },
+  "Capcomp-AI/capability-composition-subnet": {
+   "status": "ok",
+   "head": "052bcd4173c62536ab103f1787df734c52d1c03f",
+   "n_refs": 28,
+   "n_tags": 1,
+   "tags_digest": "3d0b2850edbdcb10",
+   "netuid": 103,
+   "kind": "p"
+  },
+  "Capcomp-AI/lora-merger-engine": {
+   "status": "private",
+   "netuid": 103,
+   "kind": "p"
+  },
+  "Beam-Network/beam": {
+   "status": "ok",
+   "head": "06fb67b7e2ad975dc18f84f66409469f1fa1b901",
+   "n_refs": 7,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 105,
+   "kind": "p"
+  },
+  "Beam-Network/beam-core-public": {
+   "status": "ok",
+   "head": "6571fa69df6e888da72f3c7c6814b4b39c50db85",
+   "n_refs": 3,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 105,
+   "kind": "p"
+  },
+  "minos-protocol/minos_subnet": {
+   "status": "ok",
+   "head": "289e54ae4cc913be93f5dfe8c44febb29363dc7b",
+   "n_refs": 46,
+   "n_tags": 6,
+   "tags_digest": "bf94e21ddc3a289a",
+   "netuid": 107,
+   "kind": "p"
+  },
+  "DendriteHQ/SOMA": {
+   "status": "ok",
+   "head": "4f2c5626107ff46f8e9978203127e3931be2ff9f",
+   "n_refs": 274,
+   "n_tags": 1,
+   "tags_digest": "5a6508bb8db2040b",
+   "netuid": 114,
+   "kind": "p"
+  },
+  "ditto-assistant/ditto-subnet": {
+   "status": "ok",
+   "head": "c0ea2a14f65f230490a142ace2306ed60da2cb4f",
+   "n_refs": 2959,
+   "n_tags": 681,
+   "tags_digest": "1d97dba169e0bbbe",
+   "netuid": 118,
+   "kind": "p"
+  },
+  "ditto-assistant/dittobench-starter-kit": {
+   "status": "ok",
+   "head": "65f9e2cb761a4db4ae71493b9a483870bf48ed7b",
+   "n_refs": 70,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 118,
+   "kind": "p"
+  },
+  "capabilityforge-next/capabilityforge": {
+   "status": "ok",
+   "head": "33e2ade40c368bf291d221dfe9bcd71a957d4aba",
+   "n_refs": 2,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 119,
+   "kind": "p"
+  },
+  "AffineFoundation/affine": {
+   "status": "ok",
+   "head": "1a5b328486e018806d3e93ef7838de99efbbd4f2",
+   "n_refs": 3,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 120,
+   "kind": "p"
+  },
+  "AffineFoundation/affine-cortex": {
+   "status": "private",
+   "netuid": 120,
+   "kind": "p"
+  },
+  "sundae-bar/sb-validator": {
+   "status": "ok",
+   "head": "3bf148e23d2c44c0e3cc1978c93594770b8f25f1",
+   "n_refs": 76,
+   "n_tags": 23,
+   "tags_digest": "7169ec8c361f34f5",
+   "netuid": 121,
+   "kind": "p"
+  },
+  "sundae-bar/bittensor-subnet": {
+   "status": "ok",
+   "head": "43236098bd3c8f37a04098ae48ee09e832680b76",
+   "n_refs": 2,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 121,
+   "kind": "p"
+  },
+  "Barbariandev/MANTIS": {
+   "status": "ok",
+   "head": "d453933a06df57af6846b1ff0d4186ade648860d",
+   "n_refs": 9,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 123,
+   "kind": "p"
+  },
+  "swarm-subnet/swarm": {
+   "status": "ok",
+   "head": "b1084f9e8b2fef8957ea823dcf6177e89e5c83ea",
+   "n_refs": 190,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 124,
+   "kind": "p"
+  },
+  "astridintelligence/sn-127": {
+   "status": "ok",
+   "head": "31bfdc466a93ad552a86b69e66054ee54c486ad4",
+   "n_refs": 2,
+   "n_tags": 0,
+   "tags_digest": "44136fa355b3678a",
+   "netuid": 127,
+   "kind": "p"
+  }
+ },
+ "chain": {
+  "14": {
+   "name": "Cacheon",
+   "alpha_usd": 2.3861,
+   "earners": 12,
+   "uids": 256,
+   "top_uid": 237,
+   "top_incentive": 0.178,
+   "top_is_owner": false,
+   "owner_pct": 50.17,
+   "commitments": 57,
+   "identity": {
+    "gh": "https://github.com/latent-to/cacheon",
+    "url": "https://cacheon.ai",
+    "desc": "A competition where miners submit containerized inference servers to compete on speed and correctness when serving an open-source model"
+   }
+  },
+  "18": {
+   "name": "Zeus",
+   "alpha_usd": 1.0244,
+   "earners": 13,
+   "uids": 257,
+   "top_uid": 224,
+   "top_incentive": 0.6051,
+   "top_is_owner": false,
+   "owner_pct": 50.94,
+   "commitments": 29,
+   "identity": {
+    "gh": "https://github.com/Orpheus-AI/Zeus",
+    "url": "https://www.zeussubnet.com/",
+    "desc": "Pushing weather forecasts beyond state-of-the-art"
+   }
+  },
+  "25": {
+   "name": "UR",
+   "alpha_usd": 2.5237,
+   "earners": 1,
+   "uids": 256,
+   "top_uid": 1,
+   "top_incentive": 1.0,
+   "top_is_owner": true,
+   "owner_pct": 65.66,
+   "commitments": 263,
+   "identity": {
+    "gh": "https://github.com/urfoundation/sn",
+    "url": "https://ur.xyz/",
+    "desc": "The peer to peer privacy network and encryption layer for the internet"
+   }
+  },
+  "26": {
+   "name": "Perturb",
+   "alpha_usd": 0.8676,
+   "earners": 10,
+   "uids": 256,
+   "top_uid": 126,
+   "top_incentive": 0.7,
+   "top_is_owner": false,
+   "owner_pct": 53.67,
+   "commitments": 1,
+   "identity": {
+    "gh": "https://github.com/0xsigurd/Perturb",
+    "url": "https://www.perturbai.io/",
+    "desc": "Decentralized adversarial robustness network"
+   }
+  },
+  "28": {
+   "name": "SayGM",
+   "alpha_usd": 5.3933,
+   "earners": 40,
+   "uids": 256,
+   "top_uid": 221,
+   "top_incentive": 0.3249,
+   "top_is_owner": false,
+   "owner_pct": 46.1,
+   "commitments": 1,
+   "identity": {
+    "gh": "https://github.com/taostat/gm-miner",
+    "url": "https://saygm.com/",
+    "desc": "Drop-in access to Claude, GPT, and Gemini."
+   }
+  },
+  "29": {
+   "name": "ho\u03c4floa\u03c4",
+   "alpha_usd": 0.7138,
+   "earners": 1,
+   "uids": 256,
+   "top_uid": 19,
+   "top_incentive": 1.0,
+   "top_is_owner": false,
+   "owner_pct": 18.0,
+   "commitments": 803,
+   "identity": {
+    "gh": "https://github.com/coldint/hotfloat",
+    "url": "http://hotfloat.io",
+    "desc": "Inference optimization"
+   }
+  },
+  "34": {
+   "name": "BitMind",
+   "alpha_usd": 3.0163,
+   "earners": 141,
+   "uids": 256,
+   "top_uid": 20,
+   "top_incentive": 0.3413,
+   "top_is_owner": false,
+   "owner_pct": 57.31,
+   "commitments": 361,
+   "identity": {
+    "gh": "https://github.com/BitMind-AI/bitmind-subnet",
+    "url": "",
+    "desc": ""
+   }
+  },
+  "35": {
+   "name": "OxMarkets",
+   "alpha_usd": 0.5942,
+   "earners": 2,
+   "uids": 256,
+   "top_uid": 201,
+   "top_incentive": 0.8793,
+   "top_is_owner": false,
+   "owner_pct": 18.0,
+   "commitments": 0,
+   "identity": {
+    "gh": "https://github.com/General-Tao-Ventures/cartha-validator",
+    "url": "https://www.0xmarkets.io/",
+    "desc": "Liquidity-as-a-Service subnet powering 0xMarkets - a permissionless perp DEX for FX, crypto, and commodities. Deposit USDC. Earn Spread + Fees + Alpha."
+   }
+  },
+  "36": {
+   "name": "Epago",
+   "alpha_usd": 16.5524,
+   "earners": 1,
+   "uids": 3,
+   "top_uid": 0,
+   "top_incentive": 1.0,
+   "top_is_owner": true,
+   "owner_pct": 74.01,
+   "commitments": 0,
+   "identity": {
+    "gh": "https://github.com/EpagoFoundation/epago",
+    "url": "https://epago.ai/",
+    "desc": "THE OPEN INTELLIGENCE LAYER FOR HUMANS AND AGENTS"
+   }
+  },
+  "38": {
+   "name": "ChronoLLM",
+   "alpha_usd": 2.1059,
+   "earners": 10,
+   "uids": 256,
+   "top_uid": 168,
+   "top_incentive": 0.5203,
+   "top_is_owner": false,
+   "owner_pct": 51.53,
+   "commitments": 246,
+   "identity": {
+    "gh": "https://github.com/chronollm/sn38",
+    "url": "https://chronollm.crunchdao.com/",
+    "desc": "Competitive training of chronologically consistent Large Language Models"
+   }
+  },
+  "40": {
+   "name": "Ralph",
+   "alpha_usd": 0.9809,
+   "earners": 1,
+   "uids": 256,
+   "top_uid": 124,
+   "top_incentive": 1.0,
+   "top_is_owner": false,
+   "owner_pct": 43.92,
+   "commitments": 159,
+   "identity": {
+    "gh": "https://github.com/RalphLabsAI/ralph",
+    "url": "https://ralphlabs.ai",
+    "desc": "An open training recipe that gets better, forever."
+   }
+  },
+  "43": {
+   "name": "Graphite",
+   "alpha_usd": 1.1781,
+   "earners": 5,
+   "uids": 256,
+   "top_uid": 20,
+   "top_incentive": 0.8079,
+   "top_is_owner": true,
+   "owner_pct": 90.46,
+   "commitments": 0,
+   "identity": {
+    "gh": "https://github.com/GraphiteAI/Graphite-Subnet",
+    "url": "",
+    "desc": ""
+   }
+  },
+  "47": {
+   "name": "Feval",
+   "alpha_usd": 0.7013,
+   "earners": 1,
+   "uids": 149,
+   "top_uid": 0,
+   "top_incentive": 1.0,
+   "top_is_owner": true,
+   "owner_pct": 82.36,
+   "commitments": 83,
+   "identity": {
+    "gh": "https://github.com/center196/feval",
+    "url": "https://feval-center-leaderboard-web.hf.space",
+    "desc": "Scalable decentralized evaluation where miners perform expensive works and validators use lightweight verification."
+   }
+  },
+  "53": {
+   "name": "engy",
+   "alpha_usd": 5.86,
+   "earners": 68,
+   "uids": 256,
+   "top_uid": 122,
+   "top_incentive": 0.3441,
+   "top_is_owner": false,
+   "owner_pct": 33.2,
+   "commitments": 0,
+   "identity": {
+    "gh": "https://github.com/hanlinai/engy",
+    "url": "https://engy.ai",
+    "desc": "Verified inference for frontier open models."
+   }
+  },
+  "54": {
+   "name": "Yanez",
+   "alpha_usd": 1.1461,
+   "earners": 107,
+   "uids": 256,
+   "top_uid": 14,
+   "top_incentive": 0.3508,
+   "top_is_owner": false,
+   "owner_pct": 64.33,
+   "commitments": 0,
+   "identity": {
+    "gh": "https://github.com/yanez-compliance/MIID-subnet",
+    "url": "www.yanez.ai",
+    "desc": "Yanez SN54 generates synthetic identities for challenging Yanez humanhood, presence, and uniqueness detection models."
+   }
+  },
+  "58": {
+   "name": "greevils",
+   "alpha_usd": 2.1713,
+   "earners": 1,
+   "uids": 256,
+   "top_uid": 37,
+   "top_incentive": 1.0,
+   "top_is_owner": false,
+   "owner_pct": 41.11,
+   "commitments": 42,
+   "identity": {
+    "gh": "https://github.com/greevils-ai/greevils-cli",
+    "url": "https://www.greevils.ai",
+    "desc": ""
+   }
+  },
+  "60": {
+   "name": "Bitsec.ai",
+   "alpha_usd": 1.0646,
+   "earners": 2,
+   "uids": 256,
+   "top_uid": 105,
+   "top_incentive": 0.5,
+   "top_is_owner": false,
+   "owner_pct": 38.5,
+   "commitments": 0,
+   "identity": {
+    "gh": "https://github.com/Bitsec-AI/sandbox",
+    "url": "https://bitsec.ai",
+    "desc": "find and fix exploits in codebases"
+   }
+  },
+  "61": {
+   "name": "RedTeam",
+   "alpha_usd": 3.619,
+   "earners": 39,
+   "uids": 256,
+   "top_uid": 231,
+   "top_incentive": 0.0471,
+   "top_is_owner": false,
+   "owner_pct": 18.0,
+   "commitments": 25,
+   "identity": {
+    "gh": "https://github.com/RedTeamSubnet/RedTeam",
+    "url": "https://www.theredteam.io/",
+    "desc": "\"The RedTeam subnet by Innerworks is a decentralized platform designed to drive innovation in cybersecurity through competitive programming challenges. The subnet incentivizes miners to develop and submit code solutions to various technical challenges, with a focus on enhancing security. These solutions can be integrated into real-world products to improve their security features.\""
+   }
+  },
+  "71": {
+   "name": "Leadpoet",
+   "alpha_usd": 1.1683,
+   "earners": 1,
+   "uids": 256,
+   "top_uid": 0,
+   "top_incentive": 1.0,
+   "top_is_owner": true,
+   "owner_pct": 82.01,
+   "commitments": 0,
+   "identity": {
+    "gh": "https://github.com/leadpoet/leadpoet",
+    "url": "https://leadpoet.com",
+    "desc": "Intent-driven AI for modern sales teams."
+   }
+  },
+  "76": {
+   "name": "nun",
+   "alpha_usd": 1.2744,
+   "earners": 1,
+   "uids": 74,
+   "top_uid": 0,
+   "top_incentive": 1.0,
+   "top_is_owner": true,
+   "owner_pct": 59.0,
+   "commitments": 0,
+   "identity": {}
+  },
+  "78": {
+   "name": "Umi",
+   "alpha_usd": 1.2166,
+   "earners": 0,
+   "uids": 256,
+   "top_uid": 0,
+   "top_incentive": 0.0,
+   "top_is_owner": true,
+   "owner_pct": 18.0,
+   "commitments": 1,
+   "identity": {
+    "gh": "https://github.com/Umi-BitSign/umi",
+    "url": "https://www.umi.vision",
+    "desc": "Universal motion to meaning"
+   }
+  },
+  "79": {
+   "name": "MVTRX",
+   "alpha_usd": 0.8843,
+   "earners": 228,
+   "uids": 256,
+   "top_uid": 245,
+   "top_incentive": 0.0893,
+   "top_is_owner": false,
+   "owner_pct": 59.0,
+   "commitments": 36,
+   "identity": {
+    "gh": "https://github.com/taos-im/sn-79",
+    "url": "https://taos.im",
+    "desc": "Building a SOTA Exchange for dTAO and Beyond"
+   }
+  },
+  "80": {
+   "name": "OpenRoboto",
+   "alpha_usd": 4.2672,
+   "earners": 5,
+   "uids": 256,
+   "top_uid": 2,
+   "top_incentive": 0.425,
+   "top_is_owner": false,
+   "owner_pct": 23.24,
+   "commitments": 1,
+   "identity": {
+    "gh": "https://github.com/openroboto-ai/openroboto-subnet",
+    "url": "https://www.openroboto.ai/",
+    "desc": "An open competition on Bittensor for continuously improving robotics models"
+   }
+  },
+  "82": {
+   "name": "Compelle",
+   "alpha_usd": 0.6334,
+   "earners": 1,
+   "uids": 64,
+   "top_uid": 15,
+   "top_incentive": 1.0,
+   "top_is_owner": false,
+   "owner_pct": 28.9,
+   "commitments": 1007,
+   "identity": {
+    "gh": "https://github.com/compelle/compelle-validator",
+    "url": "https://compelle.com",
+    "desc": "AIs debate until they are AGI."
+   }
+  },
+  "90": {
+   "name": "KubeTEE",
+   "alpha_usd": 8.2425,
+   "earners": 2,
+   "uids": 98,
+   "top_uid": 0,
+   "top_incentive": 0.7983,
+   "top_is_owner": true,
+   "owner_pct": 69.59,
+   "commitments": 0,
+   "identity": {
+    "gh": "https://github.com/KubeTEE-AI/kubetee-subnet",
+    "url": "https://kubetee.ai",
+    "desc": "KubeTEE AI Factory: Confidential Computing TEE Multi-Cluster K8s"
+   }
+  },
+  "92": {
+   "name": "MicroTensor",
+   "alpha_usd": 0.8219,
+   "earners": 9,
+   "uids": 256,
+   "top_uid": 0,
+   "top_incentive": 0.5,
+   "top_is_owner": true,
+   "owner_pct": 58.47,
+   "commitments": 87,
+   "identity": {
+    "gh": "https://github.com/microtensor-io/microtensor-subnet",
+    "url": "https://microtensor.vercel.app",
+    "desc": "A model factory and deployment layer for verified specialist AI"
+   }
+  },
+  "93": {
+   "name": "Bitcast",
+   "alpha_usd": 5.4794,
+   "earners": 3,
+   "uids": 256,
+   "top_uid": 0,
+   "top_incentive": 0.8158,
+   "top_is_owner": true,
+   "owner_pct": 78.49,
+   "commitments": 4,
+   "identity": {
+    "gh": "https://github.com/bitcast-network/bitcast",
+    "url": "https://stats.bitcast.network/",
+    "desc": "The Decentralized Creators Economy"
+   }
+  },
+  "101": {
+   "name": "Tag101",
+   "alpha_usd": 1.096,
+   "earners": 246,
+   "uids": 256,
+   "top_uid": 0,
+   "top_incentive": 0.9005,
+   "top_is_owner": true,
+   "owner_pct": 78.73,
+   "commitments": 0,
+   "identity": {
+    "gh": "https://github.com/tag101-ai/tag101",
+    "url": "http://tag101.ai",
+    "desc": "Tag101 is a Bittensor subnet for decentralized social post tagging"
+   }
+  },
+  "103": {
+   "name": "Capcomp",
+   "alpha_usd": 0.6089,
+   "earners": 1,
+   "uids": 128,
+   "top_uid": 2,
+   "top_incentive": 1.0,
+   "top_is_owner": false,
+   "owner_pct": 57.37,
+   "commitments": 19,
+   "identity": {
+    "gh": "https://github.com/orgs/Capcomp-AI/repositories",
+    "url": "http://capcomp.ai/",
+    "desc": "Capability Composition Subnet"
+   }
+  },
+  "105": {
+   "name": "Beam",
+   "alpha_usd": 1.5373,
+   "earners": 215,
+   "uids": 256,
+   "top_uid": 233,
+   "top_incentive": 0.0169,
+   "top_is_owner": false,
+   "owner_pct": 56.25,
+   "commitments": 0,
+   "identity": {
+    "gh": "https://github.com/orgs/Beam-Network/repositories",
+    "url": "https://b1m.ai",
+    "desc": "Decentralized bandwidth. A global network. Powering the open internet."
+   }
+  },
+  "107": {
+   "name": "Minos",
+   "alpha_usd": 14.625,
+   "earners": 20,
+   "uids": 100,
+   "top_uid": 56,
+   "top_incentive": 0.7999,
+   "top_is_owner": false,
+   "owner_pct": 50.96,
+   "commitments": 2,
+   "identity": {
+    "gh": "https://github.com/minos-protocol/minos_subnet",
+    "url": "https://theminos.ai",
+    "desc": "The Foundational Layer of Genomics"
+   }
+  },
+  "114": {
+   "name": "SOMA",
+   "alpha_usd": 3.2935,
+   "earners": 4,
+   "uids": 256,
+   "top_uid": 189,
+   "top_incentive": 0.8,
+   "top_is_owner": false,
+   "owner_pct": 39.74,
+   "commitments": 0,
+   "identity": {
+    "gh": "https://github.com/DendriteHQ/SOMA",
+    "url": "https://thesoma.ai",
+    "desc": "Context compression layer delivered through MCP infrastructure"
+   }
+  },
+  "118": {
+   "name": "Ditto",
+   "alpha_usd": 2.159,
+   "earners": 5,
+   "uids": 256,
+   "top_uid": 43,
+   "top_incentive": 0.6484,
+   "top_is_owner": false,
+   "owner_pct": 42.02,
+   "commitments": 0,
+   "identity": {
+    "gh": "https://github.com/orgs/ditto-assistant/repositories",
+    "url": "https://heyditto.ai",
+    "desc": "Open-Source Claude Cowork"
+   }
+  },
+  "119": {
+   "name": "CapabilityForge Next",
+   "alpha_usd": 0.7095,
+   "earners": 1,
+   "uids": 256,
+   "top_uid": 0,
+   "top_incentive": 1.0,
+   "top_is_owner": true,
+   "owner_pct": 61.62,
+   "commitments": 0,
+   "identity": {
+    "gh": "https://github.com/capabilityforge-next/capabilityforge",
+    "url": "",
+    "desc": "CapabilityForge Next rewards traceable training-data improvements that measurably enhance the accuracy, reasoning, clarity, age appropriateness, and safety of learning-oriented AI through reproducible evaluation."
+   }
+  },
+  "120": {
+   "name": "Affine",
+   "alpha_usd": 13.3268,
+   "earners": 5,
+   "uids": 256,
+   "top_uid": 60,
+   "top_incentive": 0.2,
+   "top_is_owner": false,
+   "owner_pct": 58.53,
+   "commitments": 1,
+   "identity": {
+    "gh": "https://github.com/AffineFoundation/affine",
+    "url": "www.affine.io",
+    "desc": "Reason Mining"
+   }
+  },
+  "121": {
+   "name": "sundae_bar",
+   "alpha_usd": 1.0564,
+   "earners": 2,
+   "uids": 256,
+   "top_uid": 0,
+   "top_incentive": 0.6006,
+   "top_is_owner": true,
+   "owner_pct": 73.12,
+   "commitments": 0,
+   "identity": {
+    "gh": "https://github.com/sundae-bar/bittensor-subnet",
+    "url": "https://www.sundaebar.ai/",
+    "desc": "An enterprise AI platform that turns real business needs into ready-to-use AI solutions."
+   }
+  },
+  "123": {
+   "name": "MANTIS",
+   "alpha_usd": 0.646,
+   "earners": 249,
+   "uids": 256,
+   "top_uid": 0,
+   "top_incentive": 0.3504,
+   "top_is_owner": true,
+   "owner_pct": 58.57,
+   "commitments": 1528,
+   "identity": {
+    "gh": "https://github.com/Barbariandev/MANTIS",
+    "url": "https://mantis123.com",
+    "desc": "Incentivizing cooperative prediction"
+   }
+  },
+  "124": {
+   "name": "Swarm",
+   "alpha_usd": 2.9725,
+   "earners": 25,
+   "uids": 256,
+   "top_uid": 177,
+   "top_incentive": 0.1077,
+   "top_is_owner": false,
+   "owner_pct": 47.98,
+   "commitments": 849,
+   "identity": {
+    "gh": "https://github.com/swarm-subnet/swarm",
+    "url": "www.swarm124.com",
+    "desc": ""
+   }
+  },
+  "127": {
+   "name": "Astrid",
+   "alpha_usd": 0.6434,
+   "earners": 1,
+   "uids": 256,
+   "top_uid": 0,
+   "top_incentive": 1.0,
+   "top_is_owner": true,
+   "owner_pct": 83.01,
+   "commitments": 0,
+   "identity": {
+    "gh": "https://github.com/astridintelligence/sn-127",
+    "url": "https://www.astrid.global/",
+    "desc": "The capital axis for Bittensor."
+   }
+  }
+ },
+ "sites": {
+  "14": {
+   "status": "ok 200",
+   "title": "Cacheon: Inference Optimization Arena",
+   "n_links": 43,
+   "links_digest": "871a704efbbc3674",
+   "size_bucket": 20,
+   "url": "https://cacheon.ai"
+  },
+  "18": {
+   "status": "ok 200",
+   "title": "Zeus",
+   "n_links": 18,
+   "links_digest": "e177f9cbc027e795",
+   "size_bucket": 20,
+   "url": "https://www.zeussubnet.com/"
+  },
+  "25": {
+   "status": "ok 200",
+   "title": "UR | Own ur privacy. Own the network.",
+   "n_links": 51,
+   "links_digest": "5dfc45bc4ba781f5",
+   "size_bucket": 20,
+   "url": "https://ur.xyz/"
+  },
+  "26": {
+   "status": "ok 200",
+   "title": "Perturb AI \u2014 Harden Your AI Against Invisible Attacks",
+   "n_links": 8,
+   "links_digest": "95071da8982d2b43",
+   "size_bucket": 20,
+   "url": "https://www.perturbai.io/"
+  },
+  "28": {
+   "status": "ok 200",
+   "title": "SayGM \u2014 OpenAI-compatible AI gateway, TEE-verified",
+   "n_links": 65,
+   "links_digest": "132ce08352052bd9",
+   "size_bucket": 20,
+   "url": "https://saygm.com/"
+  },
+  "29": {
+   "status": "unreachable",
+   "detail": "TimeoutError",
+   "url": "http://hotfloat.io"
+  },
+  "35": {
+   "status": "ok 200",
+   "title": "0xMarkets \u2014 FX & Crypto Perpetuals DEX on Bittensor",
+   "n_links": 9,
+   "links_digest": "f9af0a8e2d45a6d2",
+   "size_bucket": 20,
+   "url": "https://www.0xmarkets.io/"
+  },
+  "36": {
+   "status": "ok 200",
+   "title": "Epago \u2014 The Open Intelligence Layer for Humans and Agents",
+   "n_links": 8,
+   "links_digest": "90939cddf1a1963b",
+   "size_bucket": 20,
+   "url": "https://epago.ai/"
+  },
+  "38": {
+   "status": "ok 200",
+   "title": "ChronoLLM: AI built to eliminate lookahead bias",
+   "n_links": 22,
+   "links_digest": "b63bf1ba43e4f711",
+   "size_bucket": 20,
+   "url": "https://chronollm.crunchdao.com/"
+  },
+  "40": {
+   "status": "ok 200",
+   "title": "Ralph \u2014 The same model, small enough to run on your phone",
+   "n_links": 12,
+   "links_digest": "8d6fd58f711fe960",
+   "size_bucket": 20,
+   "url": "https://ralphlabs.ai"
+  },
+  "47": {
+   "status": "ok 200",
+   "title": "Feval Network \u00b7 Live Validator Leaderboard",
+   "n_links": 2,
+   "links_digest": "47ebbfa960730403",
+   "size_bucket": 20,
+   "url": "https://feval-center-leaderboard-web.hf.space"
+  },
+  "53": {
+   "status": "ok 200",
+   "title": "engy \u00b7 verified inference",
+   "n_links": 10,
+   "links_digest": "d89b05c260b48194",
+   "size_bucket": 20,
+   "url": "https://engy.ai"
+  },
+  "54": {
+   "status": "ok 200",
+   "title": "Yanez.ai",
+   "n_links": 5,
+   "links_digest": "8b71dbc5b991e8b1",
+   "size_bucket": 20,
+   "url": "https://www.yanez.ai"
+  },
+  "58": {
+   "status": "ok 200",
+   "title": "Greevils \u2014 Agents against the humans",
+   "n_links": 14,
+   "links_digest": "a4a00b467d7f6080",
+   "size_bucket": 20,
+   "url": "https://www.greevils.ai"
+  },
+  "60": {
+   "status": "ok 200",
+   "title": "bitsec",
+   "n_links": 2,
+   "links_digest": "6aceffecb9cc022c",
+   "size_bucket": 6,
+   "url": "https://bitsec.ai"
+  },
+  "61": {
+   "status": "ok 200",
+   "title": "Harness Red Team Ingenuity to Tackle the Internet's Challenges | RedTeam",
+   "n_links": 11,
+   "links_digest": "190a69593f85e9e2",
+   "size_bucket": 20,
+   "url": "https://www.theredteam.io/"
+  },
+  "71": {
+   "status": "ok 200",
+   "title": "Leadpoet | Qualified B2B Leads",
+   "n_links": 39,
+   "links_digest": "8c5030d1630f2220",
+   "size_bucket": 20,
+   "url": "https://leadpoet.com"
+  },
+  "78": {
+   "status": "ok 200",
+   "title": "umi inc. \u2014 Universal Motion Intelligence",
+   "n_links": 13,
+   "links_digest": "810814cc5951a0d2",
+   "size_bucket": 20,
+   "url": "https://www.umi.vision"
+  },
+  "79": {
+   "status": "ok 200",
+   "title": "TAOS \u2013 Simulation of Automated Trading in Intelligent Markets (a.k.a. Sn-79)",
+   "n_links": 27,
+   "links_digest": "b2cc81d980845f18",
+   "size_bucket": 20,
+   "url": "https://taos.im"
+  },
+  "80": {
+   "status": "ok 200",
+   "title": "OpenRoboto \u2014 Robot intelligence built in the open",
+   "n_links": 6,
+   "links_digest": "a23fc5414022ffa7",
+   "size_bucket": 20,
+   "url": "https://www.openroboto.ai/"
+  },
+  "82": {
+   "status": "ok 200",
+   "title": "Compelle \u00b7 Stop asking one AI. Make two of them debate",
+   "n_links": 25,
+   "links_digest": "507a298846faf7b8",
+   "size_bucket": 20,
+   "url": "https://compelle.com"
+  },
+  "90": {
+   "status": "ok 200",
+   "title": "KubeTEE \u2014 The Confidential AI Factory on Bittensor",
+   "n_links": 12,
+   "links_digest": "1e4b2ab0f17a9da7",
+   "size_bucket": 20,
+   "url": "https://kubetee.ai"
+  },
+  "92": {
+   "status": "ok 200",
+   "title": "Microtensor \u00b7 Small models. Frontier answers.",
+   "n_links": 5,
+   "links_digest": "43a79074914634ec",
+   "size_bucket": 20,
+   "url": "https://microtensor.vercel.app"
+  },
+  "93": {
+   "status": "ok 200",
+   "title": "Bitcast \u2014 Subnet 93 Protocol Dashboard",
+   "n_links": 12,
+   "links_digest": "0ddf5949e82b31be",
+   "size_bucket": 20,
+   "url": "https://stats.bitcast.network/"
+  },
+  "101": {
+   "status": "ok 200",
+   "title": "Tag101 \u2014 From Social Noise to Semantic Intelligence",
+   "n_links": 8,
+   "links_digest": "71569fd1bfdc6b50",
+   "size_bucket": 20,
+   "url": "http://tag101.ai"
+  },
+  "103": {
+   "status": "ok 200",
+   "title": "LoRA Merger - Capability Composition Subnet",
+   "n_links": 0,
+   "links_digest": "e3b0c44298fc1c14",
+   "size_bucket": 20,
+   "url": "http://capcomp.ai/"
+  },
+  "105": {
+   "status": "ok 200",
+   "title": "BEAM - Decentralized distributed Bandwidth Infrastructure",
+   "n_links": 14,
+   "links_digest": "e5721a05f7e102fc",
+   "size_bucket": 20,
+   "url": "https://b1m.ai"
+  },
+  "107": {
+   "status": "ok 200",
+   "title": "Minos | The Foundational Layer of Genomics",
+   "n_links": 22,
+   "links_digest": "bdad298582da626a",
+   "size_bucket": 20,
+   "url": "https://theminos.ai"
+  },
+  "114": {
+   "status": "ok 200",
+   "title": "SOMA | AI Context Compression for Lower Token Costs",
+   "n_links": 15,
+   "links_digest": "5d064d77bb32e9c4",
+   "size_bucket": 20,
+   "url": "https://thesoma.ai"
+  },
+  "118": {
+   "status": "ok 200",
+   "title": "Ditto",
+   "n_links": 37,
+   "links_digest": "0de2c2382d6230d5",
+   "size_bucket": 20,
+   "url": "https://heyditto.ai"
+  },
+  "120": {
+   "status": "ok 200",
+   "title": "Affine",
+   "n_links": 7,
+   "links_digest": "57a0cd591fd6d1ab",
+   "size_bucket": 20,
+   "url": "https://www.affine.io"
+  },
+  "121": {
+   "status": "ok 200",
+   "title": "AI Agent Directory \u2014 Discover Agents, Skills, Workflows & Prompts | sundae_bar",
+   "n_links": 35,
+   "links_digest": "40d8bb43306492d8",
+   "size_bucket": 20,
+   "url": "https://www.sundaebar.ai/"
+  },
+  "123": {
+   "status": "ok 200",
+   "title": "MANTIS \u00b7 Subnet 123 Network Console",
+   "n_links": 2,
+   "links_digest": "dceb932f30c27ddd",
+   "size_bucket": 20,
+   "url": "https://mantis123.com"
+  },
+  "124": {
+   "status": "ok 200",
+   "title": "Swarm \u2014 the lab for autonomous drone AI",
+   "n_links": 8,
+   "links_digest": "cd2ed2a407c54221",
+   "size_bucket": 20,
+   "url": "https://www.swarm124.com"
+  },
+  "127": {
+   "status": "ok 200",
+   "title": "Astrid Intelligence PLC",
+   "n_links": 5,
+   "links_digest": "c273903b692fa307",
+   "size_bucket": 20,
+   "url": "https://www.astrid.global/"
+  }
+ },
+ "checked": "2026-09-10 13:53 UTC"
+}

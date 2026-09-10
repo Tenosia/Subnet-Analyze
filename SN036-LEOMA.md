@@ -1,13 +1,18 @@
 # Leoma — Subnet 36 (SN36)
 
-> ## ⚠️ THIS SUBNET NO LONGER EXISTS AT THIS NETUID (checked 2026-09-05, block 8,998,579)
+> ## ⚠️ THIS SUBNET NO LONGER EXISTS AT THIS NETUID (re-checked 2026-09-09)
 >
-> Netuid 36 was **re-registered at block 8,884,359 (~16 days ago)** and its chain name is now
-> **`automata`**. It has **3 UIDs**, `alpha_out = 0`, and the owner's hotkey at UID 0 holds
-> **100 % of incentive**. Leoma — the AI video-generation subnet described below, with the
+> Netuid 36 has carried **three identities in weeks**: `Leoma` → `automata` → **`Epago`**.
+>
+> It is now **`Epago`** — *"THE OPEN INTELLIGENCE LAYER FOR HUMANS AND AGENTS"* —
+> repo [`EpagoFoundation/epago`](https://github.com/EpagoFoundation/epago), site
+> [epago.ai](https://epago.ai/). Same owner hotkey and registration block as
+> `automata`, but `alpha_out` has risen from 0 to **69,227**, so it is now
+> emitting. Still **3 UIDs, 1 earner**.
+>
+> Leoma — the AI video-generation subnet described below, with the
 > `Wan2.2-I2V-A14B` base and king-of-the-hill duels — **is gone from netuid 36**.
->
-> Everything below is retained as a record of the previous occupant. Do not act on it.
+> Everything below is a record of the first occupant. Do not act on it.
 
 **AI video generation, king-of-the-hill, deterministic reference-based duels.** Repo: `/home/vps-project/Bittensor/leoma` (`RendixNetwork/leoma`, Python, CLI `leoma`) · netuid **36** (finney).
 
