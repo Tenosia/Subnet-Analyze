@@ -25,6 +25,7 @@ PY = "/root/beam/.venv/bin/python"
 REPOS: dict[int, list[tuple[str, str]]] = {
     14: [("latent-to/cacheon", "p")],
     18: [("Orpheus-AI/Zeus", "p")],
+    20: [("witnessvision/witness_subnet", "p")],
     25: [("urfoundation/sn", "p"), ("urnetwork/connect", "p"), ("urnetwork/server", "p"), ("urnetwork/sdk", "p")],
     26: [("0xsigurd/Perturb", "p")],
     28: [("taostat/gm-validator", "p"), ("taostat/gm-miner", "p")],
@@ -43,7 +44,8 @@ REPOS: dict[int, list[tuple[str, str]]] = {
     60: [("Bitsec-AI/sandbox", "p")],
     61: [("RedTeamSubnet/RedTeam", "p"), ("RedTeamSubnet/miner", "p")],
     71: [("leadpoet/leadpoet", "p")],
-    76: [("praxi-labs/phylax-subnet", "p"), ("praxi-labs/phylax-corpus-data", "p")],
+    76: [("heroncovelabs/ormas-subnet", "p")],  # netuid 76 re-registered 2026-09-05 as Ormas;
+        # the former praxi-labs/phylax-subnet is not a continuation and is no longer watched
     78: [("Umi-BitSign/umi", "p"), ("vocence-78/vocence", "r")],
     79: [("taos-im/sn-79", "p")],
     80: [("openroboto-ai/openroboto-subnet", "p"), ("openroboto-ai/openroboto-evaluation", "p")],
@@ -54,6 +56,8 @@ REPOS: dict[int, list[tuple[str, str]]] = {
     103: [("Capcomp-AI/capability-composition-subnet", "p"), ("Capcomp-AI/lora-merger-engine", "p")],
     105: [("Beam-Network/beam", "p"), ("Beam-Network/beam-core-public", "p")],
     107: [("minos-protocol/minos_subnet", "p")],
+    108: [("TatsuProject/ChipForge_SN108", "p"),
+          ("TatsuProject/chipforge_eda_server", "r")],  # EDA server produces the only score that matters
     114: [("DendriteHQ/SOMA", "p")],
     118: [("ditto-assistant/ditto-subnet", "p"), ("ditto-assistant/dittobench-starter-kit", "p")],
     119: [("capabilityforge-next/capabilityforge", "p")],
@@ -63,8 +67,8 @@ REPOS: dict[int, list[tuple[str, str]]] = {
     124: [("swarm-subnet/swarm", "p")],
     127: [("astridintelligence/sn-127", "p")],
 }
-NETUIDS = [14,18,25,26,28,29,34,35,36,38,40,43,47,53,54,58,60,61,71,76,78,79,80,82,
-           90,92,93,101,103,105,107,114,118,119,120,121,123,124,127]
+NETUIDS = [14,18,20,25,26,28,29,34,35,36,38,40,43,47,53,54,58,60,61,71,76,78,79,80,82,
+           90,92,93,101,103,105,107,108,114,118,119,120,121,123,124,127]
 
 # Chain fields worth an alert, with the minimum move that counts as news.
 # alpha price is noisy, so only a large swing is reported.

@@ -1,4 +1,23 @@
-# Subnet 76 — Phylax — analysis
+# Subnet 76 — Phylax — analysis *(ARCHIVED — this subnet no longer exists)*
+
+> ## ⚠️ Historical document
+>
+> **Netuid 76 is no longer Phylax.** The netuid was deregistered and
+> **re-registered on 2026-09-05 at block 9,003,844** by **Heron Cove LLC** as
+> **Ormas**, an outcomes API for coding work. The chain identity states it
+> plainly: *"Registered September 5, 2026; **not a continuation of the former
+> subnet 76**."*
+>
+> Nothing below applies to the current occupant of netuid 76. Alpha held from
+> the Phylax era is a claim on an entirely different project.
+>
+> **→ Current analysis: [`SN076-ORMAS.md`](SN076-ORMAS.md)**
+>
+> *(Between Phylax and Ormas the netuid also briefly ran as `nun`. The watchdog
+> in this folder logged the `nun → Ormas` rename — see
+> [`notification.md`](notification.md).)*
+>
+> Kept for reference only. Banner added 2026-09-14.
 
 **Analysed:** 2026-08-19 · **Chain state read live from finney** · TAO $190.42, SN76 α = τ0.002242074 = **$0.4264**
 

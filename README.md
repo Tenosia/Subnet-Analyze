@@ -1,64 +1,66 @@
 # Bittensor Subnet Analysis
 
-Deep-dive summaries of **39 Bittensor subnets**, one file each.
+Deep-dive summaries of **41 Bittensor subnets**, one file each.
 
 🔔 **[notification.md](notification.md) — automated change log** for every subnet's GitHub
 and on-chain state. Run `python3 watch.py` to refresh it.
 
 📊 **[compare-table.md](compare-table.md) — the full side-by-side comparison**, with live
-economics for all 39 read at one block height. Start there.
+economics for all 41 read at one block height. Start there.
 
-*Economics below are live as of 2026-09-09 (block 9,031,872); the prose inside each
+*Economics below are live as of 2026-09-30 (block 9,181,379); the prose inside each
 file is dated at its own top. All figures move — re-verify before committing capital.*
 
 | # | Subnet | File | Domain | Earning UIDs | α (USD) |
 |---|---|---|---|---|---|
-| 14 | **Cacheon** | [`SN014-CACHEON.md`](SN014-CACHEON.md) | Inference-server speed competition | 12 | $2.40 |
-| 18 | **Zeus** | [`SN018-ZEUS.md`](SN018-ZEUS.md) | Weather / climate forecasting | 13 | $1.00 |
-| 25 | **UR** | [`SN025-UR.md`](SN025-UR.md) | Decentralized VPN / privacy network | 1 | $2.54 |
-| 26 | **Perturb** | [`SN026-PERTURB.md`](SN026-PERTURB.md) | Adversarial red-teaming of an image classifier | 10 | $0.88 |
-| 28 | **SayGM** | [`SN028-GM.md`](SN028-GM.md) | Confidential LLM-API marketplace | 65 | $5.27 |
-| 29 | **hoτfloaτ** | [`SN029-COLDINT.md`](SN029-COLDINT.md) | ⚠️ file stale — was `coldint` | 1 | $0.84 |
-| 34 | **BitMind / GAS** | [`SN034-BITMIND.md`](SN034-BITMIND.md) | Deepfake detectors vs generators | 109 | $3.02 |
-| 35 | **Cartha (0xMarkets)** | [`SN035-CARTHA.md`](SN035-CARTHA.md) | Liquidity mining — not AI | 2 | $0.59 |
-| 36 | **Epago** | [`SN036-LEOMA.md`](SN036-LEOMA.md) | ⚠️ file 2 occupants stale — now `Epago` | 1 | $18.17 |
-| 38 | **ChronoLLM** | [`SN038-CHRONOLLM.md`](SN038-CHRONOLLM.md) | Chronologically-consistent LLM training | 10 | $2.05 |
-| 40 | **Ralph** | [`SN040-RALPH.md`](SN040-RALPH.md) | Open model compression (Qwen3-8B into bit tiers) | 1 | $0.98 |
-| 43 | **Graphite** | [`SN043-GRAPHITE.md`](SN043-GRAPHITE.md) | Graph/routing optimisation + trading | 5 | $1.18 |
-| 47 | **Feval** | [`SN047-FEVAL.md`](SN047-FEVAL.md) | Verifiable LoRA evaluation | 2 | $0.70 |
-| 53 | **Engy** | [`SN053-ENGY.md`](SN053-ENGY.md) | Verified LLM inference (GPU serving) | 68 | $6.42 |
-| 54 | **MIID (Yanez)** | [`SN054-MIID.md`](SN054-MIID.md) | Identity-preserving face variations for KYC | 100 | $1.12 |
-| 58 | **Greevils** | [`SN058-GREEVILS.md`](SN058-GREEVILS.md) | TEE algo-trading on Hyperliquid | 1 | $2.04 |
-| 60 | **Bitsec** | [`SN060-BITSEC.md`](SN060-BITSEC.md) | AI agents finding smart-contract vulns | 2 | $1.08 |
-| 61 | **RedTeam** | [`SN061-REDTEAM.md`](SN061-REDTEAM.md) | Bots vs bot-detection | 42 | $3.49 |
-| 71 | **Leadpoet** | [`SN071-LEADPOET.md`](SN071-LEADPOET.md) | B2B sales-lead generation | 78 | $1.22 |
-| 76 | **Phylax** | [`SN076-PHYLAX.md`](SN076-PHYLAX.md) | AI supply-chain security attestation | 1 | $1.27 |
-| 78 | **UMI** | [`SN078-UMI.md`](SN078-UMI.md)<br>↳ [`SN078-VOCENCE-HISTORICAL.md`](SN078-VOCENCE-HISTORICAL.md) — *previous protocol at this netuid* | ASL→English translation (pre-activation) | 1 | $1.24 |
-| 79 | **MVTRX** | [`SN079-MVTRX.md`](SN079-MVTRX.md) | Agent-based market simulation | 216 | $0.92 |
-| 80 | **OpenRoboto** | [`SN080-OPENROBOTO.md`](SN080-OPENROBOTO.md) | Fine-tune π0.5 VLA robotics | 5 | $4.19 |
-| 82 | **Compelle** | [`SN082-COMPELLE.md`](SN082-COMPELLE.md)<br>↳ [`SN082-COMPELLE-TOOLS.md`](SN082-COMPELLE-TOOLS.md) — *mining tooling guide* | Adversarial LLM debate | 1 | $0.82 |
-| 90 | **KubeTEE** | [`SN090-KUBETEE.md`](SN090-KUBETEE.md) | DePIN confidential compute | 2 | $7.25 |
-| 92 | **MicroTensor** | [`SN092-MICROTENSOR.md`](SN092-MICROTENSOR.md) | Certified inference systems | 9 | $0.86 |
-| 93 | **Bitcast** | [`SN093-BITCAST.md`](SN093-BITCAST.md) | Creator marketing on verified attention (YouTube + X) | 3 | $5.29 |
-| 101 | **Tag101** | [`SN101-TAG101.md`](SN101-TAG101.md) | Semantic tagging of X posts | 246 | $1.10 |
-| 103 | **Capcomp** | [`SN103-CAPCOMP.md`](SN103-CAPCOMP.md) | LoRA composition | 1 | $0.66 |
-| 105 | **Beam** | [`SN105-BEAM.md`](SN105-BEAM.md)<br>↳ [`SN105-BEAM-SUMMARY.md`](SN105-BEAM-SUMMARY.md) — *short summary* | Decentralised bandwidth / CDN | 211 | $1.57 |
-| 107 | **Minos** | [`SN107-MINOS.md`](SN107-MINOS.md) | Genomic variant calling | 20 | $14.67 |
-| 114 | **SOMA** | [`SN114-SOMA.md`](SN114-SOMA.md) | Token-efficient SWE coding agents | 4 | $3.33 |
-| 118 | **Ditto** | [`SN118-DITTO.md`](SN118-DITTO.md)<br>↳ [`SN118-DITTO-DEEPDIVE.md`](SN118-DITTO-DEEPDIVE.md) — *engineering deep-dive*<br>↳ [`SN118-DITTO-SUMMARY.md`](SN118-DITTO-SUMMARY.md) — *short summary* | Agent-memory harness | 5 | $2.18 |
-| 119 | **CapabilityForge Next** | [`SN119-CAPABILITYFORGE.md`](SN119-CAPABILITYFORGE.md) | ⚠️ Training-data improvement — **no implementation published** | 1 | $0.71 |
-| 120 | **Affine** | [`SN120-AFFINE.md`](SN120-AFFINE.md) | Incentivised RL / reasoning competition | 5 | $13.53 |
-| 121 | **Sundae Bar** | [`SN121-SUNDAEBAR.md`](SN121-SUNDAEBAR.md) | AI skill evaluation, majority-burn | 2 | $1.06 |
-| 123 | **MANTIS** | [`SN123-MANTIS.md`](SN123-MANTIS.md) | Financial signal prediction | 249 | $0.65 |
-| 124 | **Swarm** | [`SN124-SWARM.md`](SN124-SWARM.md) | Autonomous drone-pilot AI (RL) | 25 | $2.85 |
-| 127 | **Astrid** | [`SN127-ASTRID.md`](SN127-ASTRID.md) | AI trading competitions (live agents) | 1 | $0.65 |
+| 14 | **Cacheon** | [`SN014-CACHEON.md`](SN014-CACHEON.md) | Inference-server speed competition | 16 | $2.70 |
+| 18 | **Zeus** | [`SN018-ZEUS.md`](SN018-ZEUS.md) | Weather / climate forecasting | 23 | $1.24 |
+| 20 | **Witness** | [`SN020-WITNESS.md`](SN020-WITNESS.md) | Agentic video understanding (metered observation) | 1 | $0.70 |
+| 25 | **UR** | [`SN025-UR.md`](SN025-UR.md) | Decentralized VPN / privacy network | 1 | $2.07 |
+| 26 | **Perturb** | [`SN026-PERTURB.md`](SN026-PERTURB.md) | Adversarial red-teaming of an image classifier | 5 | $0.73 |
+| 28 | **SayGM** | [`SN028-GM.md`](SN028-GM.md) | Confidential LLM-API marketplace | 71 | $6.23 |
+| 29 | **hoτfloaτ** | [`SN029-COLDINT.md`](SN029-COLDINT.md) | ⚠️ file stale — was `coldint` | 1 | $0.85 |
+| 34 | **BitMind / GAS** | [`SN034-BITMIND.md`](SN034-BITMIND.md) | Deepfake detectors vs generators | 106 | $3.62 |
+| 35 | **Cartha (0xMarkets)** | [`SN035-CARTHA.md`](SN035-CARTHA.md) | ⚠️ *renamed on chain to `logic` — file is stale* | 1 | $0.98 |
+| 36 | **Epago** | [`SN036-LEOMA.md`](SN036-LEOMA.md) | ⚠️ file 2 occupants stale — now `Epago` | 1 | $1.19 |
+| 38 | **ChronoLLM** | [`SN038-CHRONOLLM.md`](SN038-CHRONOLLM.md) | Chronologically-consistent LLM training | 10 | $5.84 |
+| 40 | **Ralph** | [`SN040-RALPH.md`](SN040-RALPH.md) | Open model compression (Qwen3-8B into bit tiers) | 1 | $0.80 |
+| 43 | **Graphite** | [`SN043-GRAPHITE.md`](SN043-GRAPHITE.md) | Graph/routing optimisation + trading | 6 | $1.21 |
+| 47 | **Feval** | [`SN047-FEVAL.md`](SN047-FEVAL.md) | ⚠️ *renamed on chain to `GPUForge` — file is stale* | 1 | $0.62 |
+| 53 | **Engy** | [`SN053-ENGY.md`](SN053-ENGY.md) | Verified LLM inference (GPU serving) | 14 | $10.61 |
+| 54 | **MIID (Yanez)** | [`SN054-MIID.md`](SN054-MIID.md) | Identity-preserving face variations for KYC | 131 | $1.78 |
+| 58 | **Greevils** | [`SN058-GREEVILS.md`](SN058-GREEVILS.md) | ⚠️ *renamed on chain to `dippy-speach` — file is stale* | 1 | $1.92 |
+| 60 | **Bitsec** | [`SN060-BITSEC.md`](SN060-BITSEC.md) | AI agents finding smart-contract vulns | 3 | $1.25 |
+| 61 | **RedTeam** | [`SN061-REDTEAM.md`](SN061-REDTEAM.md) | Bots vs bot-detection | 95 | $3.21 |
+| 71 | **Leadpoet** | [`SN071-LEADPOET.md`](SN071-LEADPOET.md) | B2B sales-lead generation | 2 | $1.16 |
+| 76 | **Ormas** | [`SN076-ORMAS.md`](SN076-ORMAS.md)<br>↳ [`SN076-PHYLAX-HISTORICAL.md`](SN076-PHYLAX-HISTORICAL.md) — *previous, unrelated subnet at this netuid* | Fixed-price bids for verified coding outcomes | 1 | $1.86 |
+| 78 | **UMI** | [`SN078-UMI.md`](SN078-UMI.md)<br>↳ [`SN078-VOCENCE-HISTORICAL.md`](SN078-VOCENCE-HISTORICAL.md) — *previous protocol at this netuid* | ASL→English translation (**now live** — 124 earners) | 107 | $1.05 |
+| 79 | **MVTRX** | [`SN079-MVTRX.md`](SN079-MVTRX.md) | Agent-based market simulation | 242 | $0.95 |
+| 80 | **OpenRoboto** | [`SN080-OPENROBOTO.md`](SN080-OPENROBOTO.md) | Fine-tune π0.5 VLA robotics | 8 | $8.12 |
+| 82 | **Compelle** | [`SN082-COMPELLE.md`](SN082-COMPELLE.md)<br>↳ [`SN082-COMPELLE-TOOLS.md`](SN082-COMPELLE-TOOLS.md) — *mining tooling guide* | ⚠️ *renamed on chain to `uruz` — file is stale* | 1 | $1.36 |
+| 90 | **KubeTEE** | [`SN090-KUBETEE.md`](SN090-KUBETEE.md) | DePIN confidential compute | 3 | $7.22 |
+| 92 | **MicroTensor** | [`SN092-MICROTENSOR.md`](SN092-MICROTENSOR.md) | ⚠️ *renamed on chain to `Available` — file is stale* | 1 | $0.45 |
+| 93 | **Bitcast** | [`SN093-BITCAST.md`](SN093-BITCAST.md) | Creator marketing on verified attention (YouTube + X) | 2 | $5.82 |
+| 101 | **Tag101** | [`SN101-TAG101.md`](SN101-TAG101.md) | Semantic tagging of X posts | 229 | $1.15 |
+| 103 | **Capcomp** | [`SN103-CAPCOMP.md`](SN103-CAPCOMP.md) | LoRA composition | 1 | $0.34 |
+| 105 | **Beam** | [`SN105-BEAM.md`](SN105-BEAM.md)<br>↳ [`SN105-BEAM-SUMMARY.md`](SN105-BEAM-SUMMARY.md) — *short summary* | Decentralised bandwidth / CDN | 222 | $1.98 |
+| 107 | **Minos** | [`SN107-MINOS.md`](SN107-MINOS.md) | Genomic variant calling | 20 | $12.47 |
+| 108 | **ChipForge** | [`SN108-CHIPFORGE.md`](SN108-CHIPFORGE.md) | **Silicon design** — RISC-V cores in Verilog | 1 | $1.35 |
+| 114 | **SOMA** | [`SN114-SOMA.md`](SN114-SOMA.md) | Token-efficient SWE coding agents | 132 | $5.85 |
+| 118 | **Ditto** | [`SN118-DITTO.md`](SN118-DITTO.md)<br>↳ [`SN118-DITTO-DEEPDIVE.md`](SN118-DITTO-DEEPDIVE.md) — *engineering deep-dive*<br>↳ [`SN118-DITTO-SUMMARY.md`](SN118-DITTO-SUMMARY.md) — *short summary* | Agent-memory harness | 1 | $2.16 |
+| 119 | **CapabilityForge Next** | [`SN119-CAPABILITYFORGE.md`](SN119-CAPABILITYFORGE.md) | ⚠️ Training-data improvement — **no implementation published** | 1 | $0.68 |
+| 120 | **Affine** | [`SN120-AFFINE.md`](SN120-AFFINE.md) | Incentivised RL / reasoning competition | 1 | $14.12 |
+| 121 | **Sundae Bar** | [`SN121-SUNDAEBAR.md`](SN121-SUNDAEBAR.md) | AI skill evaluation, majority-burn | 1 | $1.19 |
+| 123 | **MANTIS** | [`SN123-MANTIS.md`](SN123-MANTIS.md) | Financial signal prediction | 247 | $0.69 |
+| 124 | **Swarm** | [`SN124-SWARM.md`](SN124-SWARM.md) | Autonomous drone-pilot AI (RL) | 25 | $2.92 |
+| 127 | **Astrid** | [`SN127-ASTRID.md`](SN127-ASTRID.md) | AI trading competitions (live agents) | 4 | $0.72 |
 
 
 ---
 
 ## At-a-glance (original eight)
 
-> Superseded by [compare-table.md](compare-table.md), which covers all 39. Kept for its
+> Superseded by [compare-table.md](compare-table.md), which covers all 40. Kept for its
 > qualitative detail on these eight.
 
 | Dimension | Beam (105) | Minos (107) | SOMA (114) | Ditto (118) | MANTIS (123) |
